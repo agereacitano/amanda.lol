@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="I used to design buildings, now I design experiences.">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no">
+        <meta name="theme-color" content="#e64eff"> 
+        <meta name="color-scheme" content="light">
+        <meta name="keywords" content="product designer, australia, UX/UI, user research, digital nomad">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+        <link rel="manifest" href="assets/site.webmanifest">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Amanda Geracitano">
+        <title>Amanda Geracitano</title>
+    </head>
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/bungee-shade');
+            @import url('https://fonts.cdnfonts.com/css/inter');
+            html, body {
+                margin: 0;
+                width: 100%;
+                height: 100%;
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background: rgb(143,255,248);
+                background: linear-gradient(231deg, rgba(143,255,248,1) 0%, rgba(230,78,255,1) 100%);/* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+            }
+            h1 {
+                color: #272727;
+                font-size: 32px;
+                text-align: center;
+                margin: 1rem;
+                padding-bottom: 5rem;
+            }
+            h2 {
+                color: #272727;
+                font-size: 64px;
+                font-family: 'inter', sans-serif;
+                text-align: center;
+                margin: 1rem;
+            }
+            p {
+                color: #272727;
+                font-size: 24px;
+            }
+            ul {
+                display: flex;
+                justify-content: center;
+                padding: 0;
+            }
+            body {
+                margin: 0 auto;
+                padding: 0;
+                font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                display: flex;
+                flex-direction: column;
+            }
+            footer {
+                color: #272727;
+                font-size: 14px;
+                font-weight: 200;
+                font-family: 'inter', sans-serif;
+                text-align: center;
+                position: fixed;
+                bottom: 0;
+                padding-bottom: 2rem;
+            }
+            li {
+                list-style: none;
+                text-align: center;
+            }
+            li:not(:first-of-type) {
+                padding-left: 2rem;
+            }
+            .icon {
+                fill: #272727;
+                width: 2rem;
+                height: 2rem;
+            }
+            .icon:hover {
+                fill: rgb(255, 255, 255);
+            }
+            .image {
+                width: 2rem;
+                height: 2rem;
+            }
+
+            .underlined {
+                /*   background: red; */
+                position: relative;
+            }
+            .underline-overflow {
+                display: inline-block;
+                /* A little extra padding and overflow hidden   */
+                overflow: hidden;
+                padding-bottom: clamp(1rem, 2vmin, 2rem);
+            }
+            .underline-overflow:after {
+                content: '';
+                position: absolute;
+                top: 100%;
+                height: 150%;
+                aspect-ratio: 2.5 / 1;
+                left: 50%;
+                transform: translate(-50%, -10%);
+                border-radius: 50%;
+                border: 6px solid hsl(10 80% 50%);
+            }
+
+            .underline-clip:after {
+                content: '';
+                position: absolute;
+                top: 95%;
+                width: 150%;
+                aspect-ratio: 3 / 1;
+                left: 50%;
+                transform: translate(-50%, 0);
+                border-radius: 50%;
+                border: 6px solid hsl(130 80% 50%);
+                /* Use a clip-path to hide and show the bits you want */
+                clip-path: polygon(0 0, 50% 50%, 100% 0);
+            }
+
+            @media (max-width: 550px) {
+                h1 {
+                    font-size: 32px;
+                }
+                h2 {
+                    font-size: 38px;
+                }
+                p {
+                    font-size: 24px;
+                }
+            }
+        </style>
+    <body>
+        <img class="img" src="assets/profile.svg" alt=""height="150" width="150">
+        <h2 class="underlined underline-mask">Amanda Geracitano</h2>        
+        <h1>Product Designer</h1>
+        <!-- <p>I used to design buildings.</br> Now I design experiences.</p> -->
+        <ul>
+            <li>
+                <a class="link" href="https://www.linkedin.com/in/amanda-geracitano-2a1811164/" target="_blank" rel="noopener noreferrer">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                        <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
+                    </svg>
+                </a>
+            </li>
+            <li >
+                <a class="link" href="assets/portfolio.png" target="_blank" rel="noopener noreferrer">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512">
+                        <path d="M14 95.8C14 42.9 56.9 0 109.8 0H274.2C327.1 0 370 42.9 370 95.8C370 129.3 352.8 158.8 326.7 175.9C352.8 193 370 222.5 370 256C370 308.9 327.1 351.8 274.2 351.8H272.1C247.3 351.8 224.7 342.4 207.7 326.9V415.2C207.7 468.8 163.7 512 110.3 512C57.5 512 14 469.2 14 416.2C14 382.7 31.2 353.2 57.2 336.1C31.2 319 14 289.5 14 256C14 222.5 31.2 193 57.2 175.9C31.2 158.8 14 129.3 14 95.8zM176.3 191.6H109.8C74.2 191.6 45.4 220.4 45.4 256C45.4 291.4 74 320.2 109.4 320.4C109.5 320.4 109.7 320.4 109.8 320.4H176.3V191.6zM207.7 256C207.7 291.6 236.5 320.4 272.1 320.4H274.2C309.7 320.4 338.6 291.6 338.6 256C338.6 220.4 309.7 191.6 274.2 191.6H272.1C236.5 191.6 207.7 220.4 207.7 256zM109.8 351.8C109.7 351.8 109.5 351.8 109.4 351.8C74 352 45.4 380.8 45.4 416.2C45.4 451.7 74.6 480.6 110.3 480.6C146.6 480.6 176.3 451.2 176.3 415.2V351.8H109.8zM109.8 31.4C74.2 31.4 45.4 60.2 45.4 95.8C45.4 131.4 74.2 160.2 109.8 160.2H176.3V31.4H109.8zM207.7 160.2H274.2C309.7 160.2 338.6 131.4 338.6 95.8C338.6 60.2 309.7 31.4 274.2 31.4H207.7V160.2z"/>
+                    </svg>
+                </a>
+            </li>
+            <li >
+                <a class="link" href="https://www.instagram.com/amanda_geracitano/" target="_blank" rel="noopener noreferrer">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a class="link" href="https://medium.com/@amanda.geracitano" target="_blank" rel="noopener noreferrer">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewBox="0 0 640 512">
+                        <path d="M180.5 74.3C80.8 74.3 0 155.6 0 256S80.8 437.7 180.5 437.7 361 356.4 361 256 280.2 74.3 180.5 74.3zm288.3 10.6c-49.8 0-90.2 76.6-90.2 171.1s40.4 171.1 90.3 171.1 90.3-76.6 90.3-171.1H559C559 161.5 518.6 84.9 468.8 84.9zm139.5 17.8c-17.5 0-31.7 68.6-31.7 153.3s14.2 153.3 31.7 153.3S640 340.6 640 256C640 171.4 625.8 102.7 608.3 102.7z"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a ref="about:blank" target="_blank" rel="noopener noreferrer">
+                    <svg style="width: 2.4rem;height: 2.4rem; cursor:pointer; fill:#272727" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 100 100" xml:space="preserve">
+                        <style type="text/css">
+                            .st0{fill:transparent;}
+                            .wrapper:hover{fill:white;}
+                        </style>
+                        <g class="wrapper">
+                            <path class="st0" d="M50.4,0.5C22.8,0.3,0.3,22.8,0.5,50.4c0.2,26.9,22.2,48.8,49.1,49.1c27.7,0.2,50.2-22.3,49.9-49.9  C99.3,22.7,77.3,0.7,50.4,0.5z"/>
+                            <path class="st1" d="M35.6,25.9c3.1,3.9,4.9,8.8,4.9,14.2c0,4.6-1.4,8.9-3.7,12.5H20.2L35.6,25.9L35.6,25.9z"/>
+                            <path class="st1" d="M86.3,58.5c0,0.2-0.1,0.4-0.3,0.5c-1.1,0.5-4.8,2.2-6.4,4.4c-4,5.5-7,14.3-13.8,14.3H37.3   c-10.1,0-18.5-8-18.4-18.6c0-0.3,0.2-0.5,0.5-0.5h13.4c0.5,0,0.8,0.4,0.8,0.8v2.6c0,1.4,1.1,2.5,2.5,2.5h10.2v-5.9h-7   c4-5.1,6.4-11.5,6.4-18.5c0-7.8-3-14.9-7.9-20.2c3,0.3,5.8,0.9,8.4,1.7v-1.7c0-1.7,1.4-3.1,3.1-3.1c1.7,0,3.1,1.4,3.1,3.1v4   c9.5,4.4,15.8,11.8,15.8,20.2c0,4.9-2.1,9.5-5.8,13.3c-0.7,0.7-1.7,1.1-2.7,1.1h-7.2v5.9h9c1.9,0,5.4-3.7,7.1-5.9   c0,0,0.1-0.1,0.3-0.2c0.2-0.1,16.6-3.8,16.6-3.8c0.3-0.1,0.7,0.2,0.7,0.5L86.3,58.5L86.3,58.5z"/>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </body>
+    <footer>
+        Made with ❤️ by Amanda
+    </footer>
+</html> 
